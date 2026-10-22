@@ -1,0 +1,118 @@
+{
+  "tool": "Word Equation Toolkit",
+  "version": "0.1.0",
+  "file": "malformed_table.docx",
+  "sha256": "99238fb273623a2ebc810436580c6d78061964e5ae11bdb85d3c7a0cd4acf496",
+  "input_unchanged": true,
+  "status": "fail",
+  "error_count": 3,
+  "warning_count": 0,
+  "counts": {
+    "omml_objects": 1,
+    "display_math_objects": 1,
+    "inline_math_objects": 0,
+    "numbered_equation_rows": 1,
+    "seq_eq_fields": 1,
+    "ref_fields": 1,
+    "bookmark_starts": 1,
+    "bookmark_ends": 1,
+    "matched_bookmark_pairs": 1,
+    "equation_tables": 1
+  },
+  "stored_numbering": {
+    "status": "pass",
+    "fields": [
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "1",
+        "expected": 1,
+        "status": "pass"
+      }
+    ]
+  },
+  "references": [
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF Eq1 \\h",
+      "target": "Eq1",
+      "cached": "1",
+      "cache_status": "pass"
+    }
+  ],
+  "equation_tables": [
+    {
+      "part": "word/document.xml",
+      "table": 1,
+      "grid_twips": [
+        1310,
+        6740,
+        1310,
+        1310
+      ],
+      "width_twips": 9360,
+      "available_text_width_twips": 9360,
+      "borders": {
+        "status": "pass",
+        "explicit_visible": [],
+        "style_id": null,
+        "reasons": []
+      },
+      "rows": [
+        {
+          "row": 1,
+          "physical_cells": 4,
+          "math_objects": 1,
+          "seq_eq": 1
+        }
+      ]
+    }
+  ],
+  "line_numbering": [
+    {
+      "section": 1,
+      "enabled": true,
+      "attributes": {
+        "countBy": "1",
+        "restart": "continuous"
+      },
+      "visible_range": "unverified"
+    }
+  ],
+  "matrices": [],
+  "metadata": {
+    "docProps/core.xml": null,
+    "docProps/app.xml": null,
+    "docProps/custom.xml": null
+  },
+  "unverified_checks": [
+    "Live Word field updates",
+    "Rendered page count",
+    "Visible line-number range",
+    "Visual equation/number alignment",
+    "Renderer/font compatibility",
+    "Complete privacy review"
+  ],
+  "issues": [
+    {
+      "code": "MALFORMED_EQUATION_TABLE",
+      "severity": "error",
+      "location": "word/document.xml:table[1]",
+      "message": "Expected three grid columns; found 4."
+    },
+    {
+      "code": "TABLE_WIDTH_MISMATCH",
+      "severity": "error",
+      "location": "word/document.xml:table[1]",
+      "message": "Grid sum differs from table width."
+    },
+    {
+      "code": "MALFORMED_EQUATION_TABLE",
+      "severity": "error",
+      "location": "word/document.xml:table[1]:row[1]",
+      "message": "Expected three unmerged physical cells."
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "tool": "Word Equation Toolkit",
+  "version": "0.1.0",
+  "file": "equation_sample.docx",
+  "sha256": "e8a9658a9a26184319ba0e0d2a673d4c36549c9fbffbbcfde6ce79c5d207ca84",
+  "input_unchanged": true,
+  "status": "pass",
+  "error_count": 0,
+  "warning_count": 0,
+  "counts": {
+    "omml_objects": 14,
+    "display_math_objects": 10,
+    "inline_math_objects": 4,
+    "numbered_equation_rows": 10,
+    "seq_eq_fields": 10,
+    "ref_fields": 10,
+    "bookmark_starts": 10,
+    "bookmark_ends": 10,
+    "matched_bookmark_pairs": 10,
+    "equation_tables": 9
+  },
+  "stored_numbering": {
+    "status": "pass",
+    "fields": [
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "1",
+        "expected": 1,
+        "status": "pass"
+      },
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "2",
+        "expected": 2,
+        "status": "pass"
+      },
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "3",
+        "expected": 3,
+        "status": "pass"
+      },
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "4",
+        "expected": 4,
+        "status": "pass"
+      },
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "5",
+        "expected": 5,
+        "status": "pass"
+      },
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "6",
+        "expected": 6,
+        "status": "pass"
+      },
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "7",
+        "expected": 7,
+        "status": "pass"
+      },
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "8",
+        "expected": 8,
+        "status": "pass"
+      },
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "9",
+        "expected": 9,
+        "status": "pass"
+      },
+      {
+        "part": "word/document.xml",
+        "kind": "complex",
+        "instruction": "SEQ Eq",
+        "cached": "10",
+        "expected": 10,
+        "status": "pass"
+      }
+    ]
+  },
+  "references": [
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF SampleEq01 \\h",
+      "target": "SampleEq01",
+      "cached": "1",
+      "cache_status": "pass"
+    },
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF SampleEq03 \\h",
+      "target": "SampleEq03",
+      "cached": "3",
+      "cache_status": "pass"
+    },
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF SampleEq02 \\h",
+      "target": "SampleEq02",
+      "cached": "2",
+      "cache_status": "pass"
+    },
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF SampleEq02 \\h",
+      "target": "SampleEq02",
+      "cached": "2",
+      "cache_status": "pass"
+    },
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF SampleEq04 \\h",
+      "target": "SampleEq04",
+      "cached": "4",
+      "cache_status": "pass"
+    },
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF SampleEq07 \\h",
+      "target": "SampleEq07",
+      "cached": "7",
+      "cache_status": "pass"
+    },
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF SampleEq08 \\h",
+      "target": "SampleEq08",
+      "cached": "8",
+      "cache_status": "pass"
+    },
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF SampleEq09 \\h",
+      "target": "SampleEq09",
+      "cached": "9",
+      "cache_status": "pass"
+    },
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF SampleEq10 \\h",
+      "target": "SampleEq10",
+      "cached": "10",
+      "cache_status": "pass"
+    },
+    {
+      "part": "word/document.xml",
+      "kind": "complex",
+      "instruction": "REF SampleEq02 \\h",
+      "target": "SampleEq02",
+      "cached": "2",
+      "cache_status": "pass"
+    }
+  ],
+  "equation_tables": [
+    {
+      "part": "word/document.xml",
+      "table": 1,
+      "grid_twips": [
+        1310,
+        6740,
+        1310
+      ],
+      "width_twips": 9360,
+      "available_text_width_twips": 9360,
+      "borders": {
+        "status": "pass",
+        "explicit_visible": [],
+        "style_id": "TableGrid",
+        "reasons": []
+      },
+      "rows": [
+        {
+          "row": 1,
+          "physical_cells": 3,
+          "math_objects": 1,
+          "seq_eq": 1
+        }
+      ]
+    },
+    {
+      "part": "word/document.xml",
+      "table": 2,
+      "grid_twips": [
+        1310,
+        6740,
+        1310
+      ],
+      "width_twips": 9360,
+      "available_text_width_twips": 9360,
+      "borders": {
+        "status": "pass",
+        "explicit_visible": [],
+        "style_id": "TableGrid",
+        "reasons": []
+      },
+      "rows": [
+        {
+          "row": 1,
+          "physical_cells": 3,
+          "math_objects": 1,
+          "seq_eq": 1
+        }
+      ]
+    },
+    {
+      "part": "word/document.xml",
+      "table": 3,
+      "grid_twips": [
+        1310,
+        6740,
+        1310
+      ],
+      "width_twips": 9360,
+      "available_text_width_twips": 9360,
+      "borders": {
+        "status": "pass",
+        "explicit_visible": [],
+        "style_id": "TableGrid",
+        "reasons": []
+      },
+      "rows": [
+        {
+          "row": 1,
+          "physical_cells": 3,
+          "math_objects": 1,
+          "seq_eq": 1
+        }
+      ]
+    },
+    {
+      "part": "word/document.xml",
+      "table": 4,
+      "grid_twips": [
+        1310,
+        6740,
+        1310
+      ],
+      "width_twips": 9360,
+      "available_text_width_twips": 9360,
+      "borders": {
+        "status": "pass",
+        "explicit_visible": [],
+        "style_id": "TableGrid",
+        "reasons": []
+      },
+      "rows": [
+        {
+          "row": 1,
+          "physical_cells": 3,
+          "math_objects": 1,
+          "seq_eq": 1
+        }
+      ]
+    },
+    {
+      "part": "word/document.xml",
+      "table": 5,
+      "grid_twips": [
+        1310,
+        6740,
+        1310
+      ],
+      "width_twips": 9360,
+      "available_text_width_twips": 9360,
+      "borders": {
+        "status": "pass",
+        "explicit_visible": [],
+        "style_id": "TableGrid",
+        "reasons": []
+      },
+      "rows": [
+        {
+          "row": 1,
+          "physical_cells": 3,
+          "math_objects": 1,
+          "seq_eq": 1
+        },
+        {
+          "row": 2,
+          "physical_cells": 3,
+          "math_objects": 1,
+          "seq_eq": 1
+        }
+      ]
+    },
+    {
+      "part": "word/document.xml",
+      "table": 6,
+      "grid_twips": [
+        1310,
+        6740,
+        1310
+      ],
+      "width_twips": 9360,
+      "available_text_width_twips": 9360,
+      "borders": {
+        "status": "pass",
+        "explicit_visible": [],
+        "style_id": "TableGrid",
+        "reasons": []
+      },
+      "rows": [
+        {
+          "row": 1,
+          "physical_cells": 3,
+          "math_objects": 1,
+          "seq_eq": 1
+        }
+      ]
+    },
+    {
+      "part": "word/document.xml",
+      "table": 7,
+      "grid_twips": [
+        1310,
+        6740,
+        1310
+      ],
+      "width_twips": 9360,
+      "available_text_width_twips": 9360,
+      "borders": {
+        "status": "pass",
+        "explicit_visible": [],
+        "style_id": "TableGrid",
+        "reasons": []
+      },
+      "rows": [
+        {
+          "row": 1,
+          "physical_cells": 3,
+          "math_objects": 1,
+          "seq_eq": 1
+        }
+      ]
+    },
+    {
+      "part": "word/document.xml",
+      "table": 8,
+      "grid_twips": [
+        1310,
+        6740,
+        1310
+      ],
+      "width_twips": 9360,
+      "available_text_width_twips": 9360,
+      "borders": {
+        "status": "pass",
+        "explicit_visible": [],
+        "style_id": "TableGrid",
+        "reasons": []
+      },
+      "rows": [
+        {
+          "row": 1,
+          "physical_cells": 3,
+          "math_objects": 1,
+          "seq_eq": 1
+        }
+      ]
+    },
+    {
+      "part": "word/document.xml",
+      "table": 9,
+      "grid_twips": [
+        1310,
+        6740,
+        1310
+      ],
+      "width_twips": 9360,
+      "available_text_width_twips": 9360,
+      "borders": {
+        "status": "pass",
+        "explicit_visible": [],
+        "style_id": "TableGrid",
+        "reasons": []
+      },
+      "rows": [
+        {
+          "row": 1,
+          "physical_cells": 3,
+          "math_objects": 1,
+          "seq_eq": 1
+        }
+      ]
+    }
+  ],
+  "line_numbering": [
+    {
+      "section": 1,
+      "enabled": true,
+      "attributes": {
+        "countBy": "1",
+        "restart": "continuous"
+      },
+      "visible_range": "unverified"
+    }
+  ],
+  "matrices": [
+    {
+      "part": "word/document.xml",
+      "rows": 5,
+      "cells_per_row": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "declared_columns": 2,
+      "structural_status": "pass",
+      "rendering": "unverified"
+    }
+  ],
+  "metadata": {
+    "docProps/core.xml": {
+      "title": "Editable Word equation format sample",
+      "creator": "",
+      "lastModifiedBy": ""
+    },
+    "docProps/app.xml": null,
+    "docProps/custom.xml": null
+  },
+  "unverified_checks": [
+    "Live Word field updates",
+    "Rendered page count",
+    "Visible line-number range",
+    "Visual equation/number alignment",
+    "Renderer/font compatibility",
+    "Complete privacy review"
+  ],
+  "issues": []
+}

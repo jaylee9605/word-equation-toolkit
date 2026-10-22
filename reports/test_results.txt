@@ -1,0 +1,5 @@
+Python 3.10.11: 80 passed; 0 failed; 0 skipped
+Python 3.11.9: 80 passed; 0 failed; 0 skipped
+Python 3.12.14: 80 passed; 0 failed; 0 skipped
+Python 3.13.9: 80 passed; 0 failed; 0 skipped
+Full suite passed on each local interpreter. Hosted GitHub Actions has not been executed.

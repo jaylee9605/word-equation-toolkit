@@ -1,0 +1,32 @@
+[
+  {
+    "fixture": "examples/negative/broken_bookmark.docx",
+    "expected_error": "UNMATCHED_BOOKMARK",
+    "expected_exit_code": 1,
+    "sha256": "4f513e9d6bd969024617e36999f3259c30dc70db832c4c71ea4b1c0e3dfe55f1"
+  },
+  {
+    "fixture": "examples/negative/missing_ref_target.docx",
+    "expected_error": "MISSING_REF_TARGET",
+    "expected_exit_code": 1,
+    "sha256": "7648745a76874a057952acd6e00e47f294a50829f888d2e696367989b54416cf"
+  },
+  {
+    "fixture": "examples/negative/malformed_table.docx",
+    "expected_error": "MALFORMED_EQUATION_TABLE",
+    "expected_exit_code": 1,
+    "sha256": "99238fb273623a2ebc810436580c6d78061964e5ae11bdb85d3c7a0cd4acf496"
+  },
+  {
+    "fixture": "examples/negative/missing_seq.docx",
+    "expected_error": "MISSING_SEQ",
+    "expected_exit_code": 1,
+    "sha256": "31394bdcf3ff8c71c73338f0ca1be81d945d2a5ef3b085d3291547f94606c02b"
+  },
+  {
+    "fixture": "examples/negative/visible_border.docx",
+    "expected_error": "VISIBLE_EQUATION_BORDER",
+    "expected_exit_code": 1,
+    "sha256": "de4f8823d43db22ff9a6403becaca3a1f960c26c0848addb9785b45552fa9ffb"
+  }
+]
